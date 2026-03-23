@@ -1,0 +1,13 @@
+# Never upload these to GitHub
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files — too large for GitHub
+data/raw/
+data/processed/
+
+# Power BI temp files
+*.pbix.lock
